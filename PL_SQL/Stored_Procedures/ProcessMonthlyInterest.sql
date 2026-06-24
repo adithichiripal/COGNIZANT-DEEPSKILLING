@@ -8,3 +8,4 @@ BEGIN
     COMMIT;
 END;
 /
+EXEC ProcessMonthlyInterest;

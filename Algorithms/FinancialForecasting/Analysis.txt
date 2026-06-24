@@ -1,0 +1,28 @@
+Recursion:
+The method repeatedly applies the growth rate until the number
+of years becomes zero.
+
+Time Complexity:
+O(n)
+
+where n is the number of years because one recursive call is
+made for each year.
+
+Space Complexity:
+O(n)
+
+due to the recursive call stack.
+
+Optimization:
+The recursive solution can be optimized using:
+
+1. Iteration
+   - Avoids recursive call overhead.
+   - Uses O(1) extra space.
+
+2. Memoization
+   - Stores previously computed results.
+   - Useful when overlapping subproblems exist.
+
+For this forecasting problem, an iterative solution is generally
+more efficient because it avoids stack usage.
